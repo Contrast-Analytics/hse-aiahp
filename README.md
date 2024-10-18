@@ -1,14 +1,31 @@
-# hse-aiahp
+### Система работает следующим образом:
+![alt text](assets/1.png)
+1 у нас есть локальный DeepSeek, который генерит более менее читаемые промты.
+2 есть предобученный Yandex GPT PRO.
 
-### Tested models
+### Запуск:
+> либо notebooks либо main
+- Deepseek - "notebooks/deepseek.ipynb"
+- YandexGPT - "notebooks/pipeline_yaGPT.ipynb" // самый актуальный код по датасету для дообучения модели и отправки 
 
-- https://huggingface.co/IlyaGusev/saiga_llama3_8b_gguf
-- https://huggingface.co/IlyaGusev/saiga2_13b_gguf
-- https://huggingface.co/IlyaGusev/saiga_mistral_7b_gguf
 
-> top Russian models: https://github.com/Mozer/russian-llm-top
+### Фишки
+> можно посмотреть "notebooks/pipeline_yaGPT.ipynb" там лонгрид по промтам, обучению, добавлению синтетики в трейн. 
+> вся очиска происходит на входе, see 'jailbreak/clean_model_answer.ipynb' for additional information
 
-### BERTs for cosine-similarity
 
-- https://huggingface.co/cointegrated/LaBSE-en-ru
-- https://huggingface.co/ai-forever/sbert_large_nlu_ru
+### Верхеуровневно все выглядит так
+![alt text](assets/2.png)
+- I. Берем решение студента(файл Solutions) и смотрим компилируется ли код или нет.
+Если нет - отбрасываем все ошибки по оформлению и используем основную как сообщение часть промта для модели.
+Можно попытаться сматчить ошибки и сообщения из файла.
+
+- II. Используем сообщение об ошибке вместе с решением студента для промта GPT. Также используем стилистику из примеров для лучшего результата.
+
+- III. Компилируем решение студента, на вход подаем данные из тестов и смотрим какой именно из тестов не прошел(не совпадает с output тестов).
+
+У нас получается строка(Ошибка в открытых и скрытых тестах. )
+Далее используя эту информацию составляем промт для GPT.
++ из решение автора составляем промт для gpt.
+
+
