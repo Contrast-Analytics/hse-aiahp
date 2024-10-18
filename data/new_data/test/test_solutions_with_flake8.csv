@@ -1,0 +1,3140 @@
+,id,task_id,student_solution,author_comment,author_comment_embedding,message,line_number,line
+0,0,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+print('Реализация проекта будет стоить {money} тыс. руб. без скидки. Со скидой стоимость составит {money- (money * discount)} тыс. руб.')",Ваше предсказание,,,,
+1,1,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+print(f'Реализация проекта будет стоить {money} тыс. руб. без скидки. Со скидой стоимость составит {money- (money * discount)} тыс. руб.)",Ваше предсказание,,SyntaxError: unterminated f-string literal (detected at line 6),6.0,
+2,2,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+print(fРеализация проекта будет стоить {money} тыс. руб. без скидки. Со скидой стоимость составит {money- (money * discount)} тыс. руб.')",Ваше предсказание,,SyntaxError: unterminated string literal (detected at line 6),6.0,
+3,3,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+print(f'Реализация проекта будет стоить {discount} тыс. руб. без скидки. Со скидой стоимость составит {money- (money * discount)} тыс. руб.')",Ваше предсказание,,,,
+4,4,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+print(f'Реализация проекта будет стоить {money} тыс. руб. без скидки. Со скидой стоимость составит {money * discount} тыс. руб.')",Ваше предсказание,,,,
+5,5,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+print(f""Реализация проекта будет стоить {money} тыс. руб. без скидки. Со скидой стоимость составит {money- (money * discount)} тыс. руб.')",Ваше предсказание,,SyntaxError: unterminated f-string literal (detected at line 6),6.0,
+6,6,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+print('Реализация проекта будет стоить 500 тыс. руб. без скидки. Со скидкой стоимость составит 450.0 тыс. руб.')",Ваше предсказание,,,,
+7,7,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+    print(f'Реализация проекта будет стоить {money} тыс. руб. без скидки. Со скидой стоимость составит {money- (money * discount)} тыс. руб.')",Ваше предсказание,,IndentationError: unexpected indent,6.0,    print(f'Реализация проекта будет стоить {money} тыс. руб. без скидки. Со скидой стоимость составит {money- (money * discount)} тыс. руб.')
+8,8,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+print(f'Реализация проекта будет стоить {money} тыс. руб. без скидки. Со скидой стоимость составит {money- (money * discount)} тыс. руб.'",Ваше предсказание,,SyntaxError: '(' was never closed,6.0,
+9,9,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+print(f'Реализация проекта будет стоить money тыс. руб. без скидки. Со скидой стоимость составит money- (money * discount) тыс. руб.')",Ваше предсказание,,,,
+10,10,0,"discount  = int(input())
+money = int(input())
+
+#ваш код ниже
+
+print(f'Реализация проекта будет стоить {money} тыс. руб. без скидки. Со скидой стоимость составит {money- (money * discount)} тыс. руб.'",Ваше предсказание,,SyntaxError: '(' was never closed,6.0,
+11,11,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+print(f'Реализация проекта будет стоить {money} тыс. руб. без скидки. Со скидой стоимость составит {money- (money * int(discount))} тыс. руб.'",Ваше предсказание,,SyntaxError: '(' was never closed,6.0,
+12,12,0,"discount  = float(input())
+money = int(input())
+
+#ваш код ниже
+
+Print(f'Реализация проекта будет стоить {money} тыс. руб. без скидки. Со скидой стоимость составит {money- (money * discount)} тыс. руб.'",Ваше предсказание,,SyntaxError: '(' was never closed,6.0,
+13,60,4,"allowed_colors = input().split(', ')
+favorite_colors =input().split(', ')
+used_colors = input().split(', ')
+
+print(*sorted(allowed_colors & used_colors & favorite_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+14,61,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+ans = allowed_colors & used_colors & favorite_colors
+
+print(ans, sep = '; ', end = '!')",Ваше предсказание,,,,
+15,62,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+ans = allowed_colors & used_colors & favorite_colors
+
+print(*ans, sep = '; ', end = '!')",Ваше предсказание,,,,
+16,63,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(allowed_colors & used_colors & favorite_colors, reverse = False), sep = '; ')",Ваше предсказание,,,,
+17,64,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(allowed_colors & used_colors & favorite_colors, reverse = False), sep = ';', end = '!')",Ваше предсказание,,,,
+18,65,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(allowed_colors - used_colors & favorite_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+19,66,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(allowed_colors - used_colors - favorite_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+20,67,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(allowed_colors & used_colors - favorite_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+21,68,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(allowed_colors & used_colors), reverse = False), sep = '; ', end = '!')",Ваше предсказание,,SyntaxError: unmatched ')',5.0,"print(*sorted(allowed_colors & used_colors), reverse = False), sep = '; ', end = '!')"
+22,69,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(allowed_colors & favorite_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+23,70,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(allowedcolors & usedcolors & favoritecolors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+24,71,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(allowed_colors and used_colors and favorite_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+25,72,4,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(allowed_colors + used_colors + favorite_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+26,73,5,"room = input()
+
+residences = []
+for key, value in studios:
+    for k, v in value.items():
+        if room not in v:
+            residences.append(k)
+    
+print(*sorted(set(residences)), sep='/')",Ваше предсказание,,,,
+27,74,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value:
+        if room not in v:
+            residences.append(k)
+    
+print(*sorted(set(residences)), sep='/')",Ваше предсказание,,,,
+28,75,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in k:
+            residences.append(k)
+    
+print(*sorted(set(residences)), sep='/')",Ваше предсказание,,,,
+29,76,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in key.items():
+        if room not in v:
+            residences.append(k)
+    
+print(*sorted(set(residences)), sep='/')",Ваше предсказание,,,,
+30,77,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room in v:
+            residences.append(k)
+    
+print(*sorted(set(residences)), sep='/')",Ваше предсказание,,,,
+31,78,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v:
+            residences.add(k)
+    
+print(*sorted(set(residences)), sep='/')",Ваше предсказание,,,,
+32,79,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v:
+            residences.append(k)
+    
+print(set(residences))",Ваше предсказание,,,,
+33,80,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v:
+            residences.append(k)
+    
+print(*set(residences), sep='/')",Ваше предсказание,,,,
+34,81,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v:
+            residences.append(k)
+    
+print(*sorted(set(residences)))",Ваше предсказание,,,,
+35,82,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v:
+            residences.append(k)
+    
+print(*sorted(residences), sep='/')",Ваше предсказание,,,,
+36,83,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v:
+            residences.append(k)
+    
+print(room)",Ваше предсказание,,,,
+37,84,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v:
+            residences.append(room)
+    
+print(*sorted(set(residences)), sep='/')",Ваше предсказание,,,,
+38,85,5,"room = input()
+
+residences = ()
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v:
+            residences.append(k)
+    
+print(*sorted(set(residences)), sep='/')",Ваше предсказание,,,,
+39,86,5,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v:
+            residences.append(k)
+    
+    print(*sorted(set(residences)), sep='/')",Ваше предсказание,,,,
+40,87,5,"room = input()
+
+residences = ()
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v:
+        residences.append(k)
+    
+print(*sorted(set(residences)), sep='/')",Ваше предсказание,,IndentationError: expected an indented block after 'if' statement on line 6,7.0,"        residences.append(k)
+"
+41,88,5,"room = input()
+
+residences = ()
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v
+            residences.append(k)
+    
+print(*sorted(set(residences)), sep='/')",Ваше предсказание,,SyntaxError: expected ':',6.0,"        if room not in v
+"
+42,89,5,"room = input()
+
+residences = ()
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in value:
+            residences.append(k)
+    
+print(*sorted(set(residences)), sep='/')",Ваше предсказание,,,,
+43,197,12,"duration  = int(input())
+money = int(input())
+
+# ваш код ниже
+
+print('Реализация проекта будет стоить {money} тыс. руб. Срок реализации проекта {duration} недель.')",Ваше предсказание,,,,
+44,198,12,"duration  = int(input())
+money = int(input())
+
+# ваш код ниже
+
+print(f'Реализация проекта будет стоить {money} тыс. руб. Срок реализации проекта {duration} недель.)",Ваше предсказание,,SyntaxError: unterminated f-string literal (detected at line 6),6.0,
+45,199,12,"duration  = int(input())
+money = int(input())
+
+# ваш код ниже
+
+print(fРеализация проекта будет стоить {money} тыс. руб. Срок реализации проекта {duration} недель.')",Ваше предсказание,,SyntaxError: unterminated string literal (detected at line 6),6.0,
+46,200,12,"duration  = int(input())
+money = int(input())
+
+# ваш код ниже
+
+print('Реализация проекта будет стоить 500 тыс. руб. Срок реализации проекта 10 недель.')",Ваше предсказание,,,,
+47,201,12,"duration  = int(input())
+money = int(input())
+
+# ваш код ниже
+
+    print(f'Реализация проекта будет стоить {money} тыс. руб. Срок реализации проекта {duration} недель.')",Ваше предсказание,,IndentationError: unexpected indent,6.0,    print(f'Реализация проекта будет стоить {money} тыс. руб. Срок реализации проекта {duration} недель.')
+48,202,12,"duration  = int(input())
+money = int(input())
+
+# ваш код ниже
+
+print(f'Реализация проекта будет стоить money тыс. руб. Срок реализации проекта duration недель.')",Ваше предсказание,,,,
+49,203,12,"duration  = int(input())
+money = input()
+
+# ваш код ниже
+
+print(f'Реализация проекта будет стоить {money} тыс. руб. Срок реализации проекта {duration} недель.')",Ваше предсказание,,,,
+50,204,12,"duration  = input()
+money = int(input())
+
+# ваш код ниже
+
+print(f'Реализация проекта будет стоить {money} тыс. руб. Срок реализации проекта {duration} недель.')",Ваше предсказание,,,,
+51,205,12,"duration  = int(input())
+money = int(input())
+
+# ваш код ниже
+
+print(f'Реализация проекта будет стоить {duration} тыс. руб. Срок реализации проекта {money} недель.')",Ваше предсказание,,,,
+52,206,12,"duration  = int(input())
+money = int(input())
+
+# ваш код ниже
+
+Print(f'Реализация проекта будет стоить {duration} тыс. руб. Срок реализации проекта {money} недель.')",Ваше предсказание,,,,
+53,207,12,"duration  = int(input())
+money = int(input())
+
+# ваш код ниже
+
+Print(f'Реализация проекта будет стоить {time} тыс. руб. Срок реализации проекта {money} недель.')",Ваше предсказание,,,,
+54,208,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = int(input())
+
+if color not in logo_project and color in cite_project:
+    print(True)
+else:
+    print(False)",Ваше предсказание,,,,
+55,209,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = input()
+
+if color in logo_project and color in cite_project:
+    print(True)
+else:
+    print(False)",Ваше предсказание,,,,
+56,210,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = input()
+
+if color not in logo_project and color not in cite_project:
+    print(True)
+else:
+    print(False)",Ваше предсказание,,,,
+57,211,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = input()
+
+if color not in logo_project: 
+    print(True)
+elif color in cite_project:
+    print(True)
+else:
+    print(False)",Ваше предсказание,,,,
+58,212,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = input()
+
+if color not in logo_project and color in cite_project:
+    print(False)
+else:
+    print(True)",Ваше предсказание,,,,
+59,213,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = input()
+
+if color not in logo_project and color in cite_project
+    print(True)
+else:
+    print(False)",Ваше предсказание,,SyntaxError: expected ':',6.0,"if color not in logo_project and color in cite_project
+"
+60,214,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = input()
+
+if color not in logoproject and color in citeproject:
+    print(True)
+else:
+    print(False)",Ваше предсказание,,,,
+61,215,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = input()
+
+if color not in logo_project and color in cite_project:
+    print(True)
+else:
+print(False)",Ваше предсказание,,IndentationError: expected an indented block after 'else' statement on line 8,9.0,print(False)
+62,216,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = input()
+
+if color not in logo_project and color in cite_project:
+    print(True
+else:
+    print(False)",Ваше предсказание,,SyntaxError: '(' was never closed,7.0,
+63,217,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = input()
+
+if color not in logo_project and color in cite_project:
+    print(True)
+else color in logo_project and color not in cite_project:
+    print(False)",Ваше предсказание,,SyntaxError: expected ':',8.0,"else color in logo_project and color not in cite_project:
+"
+64,218,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = input()
+
+if color not in logo_project and color in cite_project:
+    print(true)
+else:
+    print(false)",Ваше предсказание,,,,
+65,219,13,"logo_project = ['#a7a8f0', '#a7f0ca', '#b3b4e4', '#e4b3cd', '#e4e3b3', '#c0ced7']
+cite_project = ['#e4e3b3', '#a7a8f0', '#ccb1e6', '#b4f99e', '#f9b59e', '#c0ced7']
+
+color = input()
+
+if color not in logo_project:
+    print(True)
+else:
+    print(False)",Ваше предсказание,,,,
+66,235,15,"logo = input()
+
+res = []
+for info in logo:
+    if info.startswith('@') and info[1:].isalnum() == True:      
+        res.append(info)
+        
+print(*res, sep=', ')",Ваше предсказание,,,,
+67,236,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') or info[1:].isalnum() == True:      
+        res.append(info)
+        
+print(*res, sep=', ')",Ваше предсказание,,,,
+68,237,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith(@) and info[1:].isalnum() == True:      
+        res.append(info)
+        
+print(*res, sep=', ')",Ваше предсказание,,SyntaxError: invalid syntax,5.0,"    if info.startswith(@) and info[1:].isalnum() == True:      
+"
+69,238,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and info.isalnum() == True:      
+        res.append(info)
+        
+print(*res, sep=', ')",Ваше предсказание,,,,
+70,239,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and not(info[1:].isnumeric() == True):      
+        res.append(info)
+        
+print(*res, sep=', ')",Ваше предсказание,,,,
+71,240,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and info[1:].isalnum() = True:      
+        res.append(info)
+        
+print(*res, sep=', ')",Ваше предсказание,,SyntaxError: invalid syntax,5.0,"    if info.startswith('@') and info[1:].isalnum() = True:      
+"
+72,241,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and info[1:].isalnum() == True:      
+        res.add(info)
+        
+print(*res, sep=', ')",Ваше предсказание,,,,
+73,242,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and info[1:].isalnum() == True:      
+        res.append(info)
+        
+print(*info, sep=', ')",Ваше предсказание,,,,
+74,243,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and info[1:].isalnum() == True:      
+        res.append(info)
+        
+    print(*res, sep=', ')",Ваше предсказание,,,,
+75,244,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and info[1:].isalnum() == True:      
+        res.append(logo)
+        
+print(*res, sep=', ')",Ваше предсказание,,,,
+76,245,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and info[1:].isalnum() == True:      
+        res.append(info)
+        
+print(res)",Ваше предсказание,,,,
+77,246,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and info[1:].isalnum() == True:      
+        res.append(info)
+        
+print(*res)",Ваше предсказание,,,,
+78,247,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and info[1:].isalnum() == True:      
+        res.append(info)
+        
+print(*res, sep=',')",Ваше предсказание,,,,
+79,248,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and info[1:].isalnum() == True:      
+        res.append(info)
+        
+print(*sorted(res), sep=', ')",Ваше предсказание,,,,
+80,249,15,"logo = input()
+
+res = []
+for info in logo.split():
+    if info.startswith('@') and info[1:].isnumeric() == True or info[1:].isalpha() == True:      
+        res.append(info)
+        
+print(*res, sep=', ')",Ваше предсказание,,,,
+81,250,16,"allowed_colors = input().split(', ')
+favorite_colors = input().split(', ')
+used_colors = input().split(', ')
+
+print(*sorted(used_colors & favorite_colors - allowed_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+82,251,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(used_colors & favorite_colors - allowed_colors)",Ваше предсказание,,,,
+83,252,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*(used_colors & favorite_colors - allowed_colors))",Ваше предсказание,,,,
+84,253,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(used_colors & favorite_colors - allowed_colors))",Ваше предсказание,,,,
+85,254,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(used_colors & favorite_colors - allowed_colors, reverse = False), sep = '; ')",Ваше предсказание,,,,
+86,255,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(used_colors & favorite_colors - allowed_colors, reverse = False), end = '!')",Ваше предсказание,,,,
+87,256,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(used_colors - favorite_colors & allowed_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+88,257,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(used_colors and favorite_colors - allowed_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+89,258,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(used_colors & favorite_colors & allowed_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+90,259,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(used_colors + favorite_colors - allowed_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+91,260,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(usedcolors & favoritecolors - allowedcolors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+92,261,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(used_colors & favorite_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+93,262,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(favorite_colors - allowed_colors, reverse = False), sep = '; ', end = '!')",Ваше предсказание,,,,
+94,263,16,"allowed_colors = set(input().split(', '))
+favorite_colors = set(input().split(', '))
+used_colors = set(input().split(', '))
+
+print(*sorted(used_colors & favorite_colors - allowed_colors, reverse = False), sep = '; ', end = ' !')",Ваше предсказание,,,,
+95,264,17,"room = input()
+
+residences = []
+for key, value in studios:
+    for k, v in value.items():
+        if room  in v:
+            residences.append(k)
+    
+print(*sorted(residences, reverse = True), sep='/')",Ваше предсказание,,,,
+96,265,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value:
+        if room  in v:
+            residences.append(k)
+    
+print(*sorted(residences, reverse = True), sep='/')",Ваше предсказание,,,,
+97,266,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in key.items():
+        if room  in v:
+            residences.append(k)
+    
+print(*sorted(residences, reverse = True), sep='/')",Ваше предсказание,,,,
+98,267,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room  in v:
+            residences.append(key)
+    
+print(*sorted(residences, reverse = True), sep='/')",Ваше предсказание,,,,
+99,268,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room  in v
+            residences.append(k)
+    
+print(*sorted(residences, reverse = True), sep='/')",Ваше предсказание,,SyntaxError: expected ':',6.0,"        if room  in v
+"
+100,269,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room in v:
+            residences.append(value)
+    
+print(*sorted(residences, reverse = True), sep='/')",Ваше предсказание,,,,
+101,270,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room  in v:
+            residences.append(k)
+    
+print(residences)",Ваше предсказание,,,,
+102,271,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room  in v:
+            residences.append(k)
+    
+print(*residences)",Ваше предсказание,,,,
+103,272,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room  in v:
+            residences.append(k)
+    
+print(*sorted(residences))",Ваше предсказание,,,,
+104,273,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room  in v:
+            residences.append(k)
+    
+print(*sorted(residences), sep='/')",Ваше предсказание,,,,
+105,274,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room  in v:
+            residences.append(k)
+    
+print(*sorted(residences, reverse = True))",Ваше предсказание,,,,
+106,275,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    if room  in value[1]:
+        residences.append(value[0])
+    
+print(*sorted(residences, reverse = True), sep='/')",Ваше предсказание,,,,
+107,276,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room not in v:
+            residences.append(k)
+    
+print(*sorted(residences, reverse = True), sep='/')",Ваше предсказание,,,,
+108,277,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room  in v:
+            residences.add(k)
+    
+print(*sorted(residences, reverse = True), sep='/')",Ваше предсказание,,,,
+109,278,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room  in v:
+            residence.append(k)
+    
+print(*sorted(residences, reverse = True), sep='/')",Ваше предсказание,,,,
+110,279,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room  in v:
+            residences.append(k)
+    
+print(*sorted(residences), reverse = True,  sep='/')",Ваше предсказание,,,,
+111,280,17,"room = input()
+
+residences = []
+for key, value in studios.items():
+    for k, v in value.items():
+        if room  in v:
+            residences.append(k)
+    
+    print(*sorted(residences, reverse = True), sep='/')",Ваше предсказание,,,,
+112,298,19,"week = int(input())
+
+with open('projects_file.txt', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+113,299,19,"week = int(input())
+
+open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,SyntaxError: invalid syntax,3.0,"open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+"
+114,300,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+115,301,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,SyntaxError: expected ':',4.0,"    for line in my_file
+"
+116,302,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+117,303,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(', ')
+        if int(info[-1].split()[0]) <= week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+118,304,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[1].split()[0]) <= week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+119,305,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[1]) <= week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+120,306,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if info[-1].split()[0] <= week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+121,307,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) < week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+122,308,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week or int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+123,309,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week and int(info[-2].split()[0]) < 250:
+            print(line)",Ваше предсказание,,,,
+124,310,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) == week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+125,311,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week and int(info[2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+126,312,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week and info[-2].split()[0] <= 250:
+            print(line)",Ваше предсказание,,,,
+127,313,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1]) <= week and int(info[-2].split()[0]) <= 250:
+            print(line)",Ваше предсказание,,,,
+128,314,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week and int(info[-2].split()[0]) <= 250:
+            print(info)",Ваше предсказание,,,,
+129,315,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week:
+            print(info)
+        if int(info[-2].split()[0]) <= 250:
+            print(info)",Ваше предсказание,,,,
+130,316,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-1].split()[0]) <= week:
+            print(info)",Ваше предсказание,,,,
+131,317,19,"week = int(input())
+
+with open('projects_file.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[-2].split()[0]) <= 250:
+            print(info)",Ваше предсказание,,,,
+132,318,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join(house1, house2, house3)
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[1].split()[0])
+    if k > max_pr:
+        max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+133,319,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house, house1, house2] )
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[1].split()[0])
+    if k > max_pr:
+        max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+134,320,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split(', ')
+for item in res:
+    k = int(item.split(': ')[1].split()[0])
+    if k > max_pr:
+        max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+135,321,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split('; ')
+for item in res
+    k = int(item.split(': ')[1].split()[0])
+    if k > max_pr:
+        max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,SyntaxError: expected ':',9.0,"for item in res
+"
+136,322,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split('; ')
+for i in res:
+    k = int(item.split(': ')[1].split()[0])
+    if k > max_pr:
+        max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+137,323,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[0].split()[0])
+    if k > max_pr:
+        max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+138,324,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[1].split()[1])
+    if k > max_pr:
+        max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+139,325,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[1].split()[0])
+    if k > max_pr:
+        max_pr = k
+
+    
+    print(max_pr)",Ваше предсказание,,,,
+140,326,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split('; ')[1].split()[0])
+    if k > max_pr:
+        max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+141,327,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[1].split()[0])
+    if k > max_pr:
+        max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+142,328,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[1].split()[0])
+    if k >= max_pr:
+        max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+143,329,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[1].split()[0])
+    if k < max_pr:
+        max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+144,330,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[1].split()[0])
+    if k == max_pr:
+        print(max_pr)",Ваше предсказание,,,,
+145,331,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[1].split()[0])
+    if k > max_pr:
+        max_pr == k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+146,332,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3] )
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[1].split()[0])
+    if k > max_pr:
+        max_pr = k
+
+    
+print(k)",Ваше предсказание,,,,
+147,333,20,"house1 = input()
+house2 = input()
+house3 = input()
+
+res = '; '.join([house1, house2, house3])
+max_pr = 0 
+
+res = res.split('; ')
+for item in res:
+    k = int(item.split(': ')[1].split()[0])
+    
+if k > max_pr:
+    max_pr = k
+
+    
+print(max_pr)",Ваше предсказание,,,,
+148,350,22,"def work(slov)
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return [money_done, False]
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,SyntaxError: expected ':',1.0,"def work(slov)
+"
+149,351,22,"def work():
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return [money_done, False]
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,,,
+150,352,22,"def work(slov):
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return [money_done, False]
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,,,
+151,353,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov:
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return [money_done, False]
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,,,
+152,354,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if k[1] == 'не реализован':
+            counter += 1
+            money_done += k[0]
+        if k[1] == 'реализован':
+            money_not_done += k[0]
+            
+    if counter != 0:
+        return [money_done, False]
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,,,
+153,355,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[0] == 'не реализован':
+            counter += 1
+            money_done += v[1]
+        if v[0] == 'реализован':
+            money_not_done += v[1]
+            
+    if counter != 0:
+        return [money_done, False]
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,,,
+154,356,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] = 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] = 'реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return [money_done, False]
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,SyntaxError: cannot assign to subscript here. Maybe you meant '==' instead of '='?,6.0,"        if v[1] = 'не реализован':
+"
+155,357,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == не реализован:
+            counter += 1
+            money_done += v[0]
+        if v[1] == реализован:
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return [money_done, False]
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,SyntaxError: invalid syntax,6.0,"        if v[1] == не реализован:
+"
+156,358,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        else v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return [money_done, False]
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,SyntaxError: expected ':',9.0,"        else v[1] == 'реализован':
+"
+157,359,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'не реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return [money_done, False]
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,,,
+158,360,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter == 0:
+        return [money_done, False]
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,,,
+159,361,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return False
+        
+    else:
+        return [money_not_done, True]",Ваше предсказание,,,,
+160,362,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return [money_done, False]
+        
+    else:
+        return True",Ваше предсказание,,,,
+161,363,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        print([money_done, False])
+        
+    else:
+        print([money_not_done, True])",Ваше предсказание,,,,
+162,364,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return [money_done, false]
+        
+    else:
+        return [money_not_done, true]",Ваше предсказание,,,,
+163,365,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter != 0:
+        return [money_done, False]",Ваше предсказание,,,,
+164,366,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+    if counter == 0:
+        return [money_not_done, True]     ",Ваше предсказание,,,,
+165,367,22,"def work(slov):
+    counter = 0
+    money_done = 0
+    money_not_done = 0
+    for k, v in slov.items():
+        if v[1] == 'не реализован':
+            counter += 1
+            money_done += v[0]
+        if v[1] == 'реализован':
+            money_not_done += v[0]
+            
+        if counter != 0:
+            return [money_done, False]
+        
+        else:
+            return [money_not_done, True]",Ваше предсказание,,,,
+166,389,24,"ton = input()
+
+# ваш код ниже
+
+print(""Сегодня мы будем анализировать {ton} в тексте!"")",Ваше предсказание,,,,
+167,390,24,"ton = input()
+
+# ваш код ниже
+
+print(f""Сегодня мы будем анализировать {ton} в тексте!)",Ваше предсказание,,SyntaxError: unterminated f-string literal (detected at line 5),5.0,
+168,391,24,"ton = input()
+
+# ваш код ниже
+
+print(fСегодня мы будем анализировать {ton} в тексте!"")",Ваше предсказание,,SyntaxError: unterminated string literal (detected at line 5),5.0,
+169,392,24,"ton = input()
+
+# ваш код ниже
+
+print(f""Сегодня мы будем анализировать метафоры в тексте!"")",Ваше предсказание,,,,
+170,393,24,"ton = input()
+
+# ваш код ниже
+
+    print(f""Сегодня мы будем анализировать {ton} в тексте!"")",Ваше предсказание,,IndentationError: unexpected indent,5.0,"    print(f""Сегодня мы будем анализировать {ton} в тексте!"")"
+171,394,24,"ton = input()
+
+# ваш код ниже
+
+print(f""Сегодня мы будем анализировать ton в тексте!"")",Ваше предсказание,,,,
+172,395,24,"ton = int(input())
+
+# ваш код ниже
+
+print(f""Сегодня мы будем анализировать {ton} в тексте!"")",Ваше предсказание,,,,
+173,396,24,"ton = input()
+
+# ваш код ниже
+
+Print(f""Сегодня мы будем анализировать {ton} в тексте!"")",Ваше предсказание,,,,
+174,397,24,"ton = input()
+
+# ваш код ниже
+
+print(f""Сегодня мы будем анализировать {variant} в тексте!"")",Ваше предсказание,,,,
+175,398,24,"ton = input()
+
+# ваш код ниже
+
+print(f""Сегодня мы будем анализировать {ton} в тексте"")",Ваше предсказание,,,,
+176,399,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.endswith('есть') and language.split('-')[1] != second_language:
+    print(yes)
+else:
+    print(no)",Ваше предсказание,,,,
+177,400,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if есть in language and language.split('-')[1] == second_language:
+    print(yes)
+else:
+    print(no)",Ваше предсказание,,,,
+178,401,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.startswith('есть') and language.split('-')[1] == second_language:
+    print(yes)
+else:
+    print(no)",Ваше предсказание,,,,
+179,402,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.endswith('есть') and language.split('-')[1] == second_language
+    print(yes)
+else:
+    print(no)",Ваше предсказание,,SyntaxError: expected ':',7.0,"if language.endswith('есть') and language.split('-')[1] == second_language
+"
+180,403,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if languages.endswith('есть') and languages.split('-')[1] == second_language:
+    print(yes)
+else:
+    print(no)",Ваше предсказание,,,,
+181,404,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.endswith('есть') and language.split('-')[1] == second_language:
+print(yes)
+else:
+print(no)",Ваше предсказание,,IndentationError: expected an indented block after 'if' statement on line 7,8.0,"print(yes)
+"
+182,405,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.endswith('есть') and language.split('-')[1] == second_language:
+    print(yes)
+else:
+    print(no",Ваше предсказание,,SyntaxError: '(' was never closed,10.0,
+183,406,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.endswith('есть') and language.split('-')[1] == second_language:
+    print(yes)
+else language.split('-')[1] != second_language:
+    print(no)",Ваше предсказание,,SyntaxError: expected ':',9.0,"else language.split('-')[1] != second_language:
+"
+184,407,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.endswith('нет') and language.split('-')[1] == second_language:
+    print(yes)
+else:
+    print(no)",Ваше предсказание,,,,
+185,408,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.endswith('есть'):
+    print(yes)
+eilf language.split('-')[1] == second_language:
+    print(yes)
+else:
+    print(no)",Ваше предсказание,,SyntaxError: invalid syntax,9.0,"eilf language.split('-')[1] == second_language:
+"
+186,409,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.endswith('есть') and language.split('-')[1] == second_language:
+    print(no)
+else:
+    print(yes)",Ваше предсказание,,,,
+187,410,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.endswith('есть'):
+    print(yes)
+else:
+    print(no)",Ваше предсказание,,,,
+188,411,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.split('-')[1] == second_language:
+    print(yes)
+else:
+    print(no)",Ваше предсказание,,,,
+189,412,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.endswith('есть') and language.split('-')[1] == second_language:
+    print(yes)",Ваше предсказание,,,,
+190,413,25,"language = input()
+second_language = input()
+
+yes = 'Сможем перевести'
+no = 'Не сможем перевести'
+
+if language.endswith('есть') and language.split('-')[1] = second_language:
+    print(yes)
+else:
+    print(no)",Ваше предсказание,,SyntaxError: invalid syntax,7.0,"if language.endswith('есть') and language.split('-')[1] = second_language:
+"
+191,483,31,"words = input()
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+192,484,31,"words = int(input())
+
+open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] == 'французский':
+            print(line)",Ваше предсказание,,SyntaxError: invalid syntax,3.0,"open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+"
+193,485,31,"words = int(input())
+
+with open('info_texts.txt', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+194,486,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+195,487,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        info = line.split(',')
+        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+196,488,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(', ')
+        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+197,489,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] == 'французский':
+        print(line)",Ваше предсказание,,,,
+198,490,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if info[0] <= 2015 and int(info[-1].split()[0]) >= words and info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+199,491,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) < 2015 and int(info[-1].split()[0]) >= words and info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+200,492,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 and info[-1].split()[0] >= words and info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+201,493,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 and int(info[-1].split()[1]) >= words and info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+202,494,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] = 'французский':
+            print(line)",Ваше предсказание,,SyntaxError: invalid syntax,7.0,"        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] = 'французский':
+"
+203,495,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] != 'французский':
+            print(line)",Ваше предсказание,,,,
+204,496,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] == французский:
+            print(line)",Ваше предсказание,,,,
+205,497,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words and info[1] == 'французский':
+            print(info)",Ваше предсказание,,,,
+206,498,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 and int(info[-1].split()[0]) >= words or info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+207,499,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 or int(info[-1].split()[0]) >= words and info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+208,500,31,"words = int(input())
+
+with open('info_texts.csv', 'r', encoding='utf-8') as my_file:
+    for line in my_file:
+        line = line.strip()
+        info = line.split(',')
+        if int(info[0]) <= 2015 & int(info[-1].split()[0]) >= words & info[1] == 'французский':
+            print(line)",Ваше предсказание,,,,
+209,519,33,"data = input().split()
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,,,
+210,520,33,"data = input().split('/ ')
+skill = input()
+
+result = {}
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,,,
+211,521,33,"data = input().split('/ ')
+skill = input()
+
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,,,
+212,522,33,"data = input()
+data.split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,,,
+213,523,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for i in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,,,
+214,524,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(':')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,,,
+215,525,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills
+        result.append(comp)
+
+print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,SyntaxError: expected ':',8.0,"    if skill in skills
+"
+216,526,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp = comp.split(': ')
+    
+    if skill in comp:
+        result.append(comp)
+
+print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,,,
+217,527,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.add(comp)
+
+print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,,,
+218,528,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill not in skills:
+        result.append(comp)
+
+print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,,,
+219,529,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(result)",Ваше предсказание,,,,
+220,530,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(*result)",Ваше предсказание,,,,
+221,531,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(*sorted(result)",Ваше предсказание,,SyntaxError: '(' was never closed,11.0,
+222,532,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(*sorted(result), sep = '; ')",Ваше предсказание,,,,
+223,533,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(*sorted(result, reverse=True))",Ваше предсказание,,,,
+224,534,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+print(*sorted(result, reverse=true), sep = '; ')",Ваше предсказание,,,,
+225,535,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+    if skill in skills:
+        result.append(comp)
+
+    print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,,,
+226,536,33,"data = input().split('/ ')
+skill = input()
+
+result = []
+for comp in data:
+    comp, skills = comp.split(': ')
+    
+if skill in skills:
+    result.append(comp)
+
+print(*sorted(result, reverse=True), sep = '; ')",Ваше предсказание,,,,
+227,577,36,"time = input()
+
+# ваш код ниже
+
+print('В агентстве «Шедеврус» мы делаем дизайн за {time}!')",Ваше предсказание,,,,
+228,578,36,"time = input()
+
+# ваш код ниже
+
+print(f'В агентстве «Шедеврус» мы делаем дизайн за {time}!)",Ваше предсказание,,SyntaxError: unterminated f-string literal (detected at line 5),5.0,
+229,579,36,"time = input()
+
+# ваш код ниже
+
+print(fВ агентстве «Шедеврус» мы делаем дизайн за {time}!')",Ваше предсказание,,SyntaxError: invalid character '«' (U+00AB),5.0,
+230,580,36,"time = input()
+
+# ваш код ниже
+
+print(f'В агентстве «Шедеврус» мы делаем дизайн за неделю!')",Ваше предсказание,,,,
+231,581,36,"time = input()
+
+# ваш код ниже
+
+    print(f'В агентстве «Шедеврус» мы делаем дизайн за {time}!')",Ваше предсказание,,IndentationError: unexpected indent,5.0,    print(f'В агентстве «Шедеврус» мы делаем дизайн за {time}!')
+232,582,36,"time = input()
+
+# ваш код ниже
+
+print(f'В агентстве «Шедеврус» мы делаем дизайн за time!')",Ваше предсказание,,,,
+233,583,36,"time = input()
+
+# ваш код ниже
+
+Print(f'В агентстве «Шедеврус» мы делаем дизайн за {time}!')",Ваше предсказание,,,,
+234,584,36,"time = input()
+
+# ваш код ниже
+
+print(f'В агентстве «Шедеврус» мы делаем дизайн за {duration}!')",Ваше предсказание,,,,
+235,585,36,"time = input()
+
+# ваш код ниже
+
+print(f""В агентстве «Шедеврус» мы делаем дизайн за {time}!')",Ваше предсказание,,SyntaxError: unterminated f-string literal (detected at line 5),5.0,
+236,586,36,"time = input()
+
+# ваш код ниже
+
+print(f'В агентстве «Шедеврус» мы делаем дизайн за {time}')",Ваше предсказание,,,,
+237,587,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('лендинг') and time <= 10:
+    print(work)
+else:
+    print(reject)",Ваше предсказание,,,,
+238,588,37,"order = input()
+time = input()
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('Лендинг') and time <= 10:
+    print(work)
+else:
+    print(reject)",Ваше предсказание,,,,
+239,589,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.endswith('Лендинг') and time <= 10:
+    print(work)
+else:
+    print(reject)",Ваше предсказание,,,,
+240,590,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('Лендинг') & time <= 10:
+    print(work)
+else:
+    print(reject)",Ваше предсказание,,,,
+241,591,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('Лендинг') or time <= 10:
+    print(work)
+else:
+    print(reject)",Ваше предсказание,,,,
+242,592,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('Лендинг'): 
+    print(work)
+elif time <= 10:
+    print(work)
+else:
+    print(reject)",Ваше предсказание,,,,
+243,593,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('Лендинг') and time < 10:
+    print(work)
+else:
+    print(reject)",Ваше предсказание,,,,
+244,594,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('Лендинг'):
+    print(work)
+else:
+    print(reject)",Ваше предсказание,,,,
+245,595,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if time <= 10:
+    print(work)
+else:
+    print(reject)",Ваше предсказание,,,,
+246,596,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('Лендинг') and time <= 10:
+    print(work)",Ваше предсказание,,,,
+247,597,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('Лендинг') and time <= 10:
+    print(work)
+else
+    print(reject)",Ваше предсказание,,SyntaxError: expected ':',11.0,"else
+"
+248,598,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('Лендинг') and time <= 10:
+    print(wok)
+else:
+    print(reject)",Ваше предсказание,,,,
+249,599,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('Лендинг') and time <= 10:
+    print(work)
+else:
+print(reject)",Ваше предсказание,,IndentationError: expected an indented block after 'else' statement on line 11,12.0,print(reject)
+250,600,37,"order = input()
+time = int(input())
+
+work = 'Берем заказ в работу'
+reject = 'Отказываем заказчику'
+
+# ваш код
+
+if order.startswith('Лендинг') and time <= 10:
+    print(reject)
+else:
+    print(work)",Ваше предсказание,,,,
+251,641,41,"font = input()
+
+for k,v in design.items():
+    if font in v:
+        used.append(k)
+        
+print(used)",Ваше предсказание,,,,
+252,642,41,"font = input()
+used = []
+
+for k,v in design:
+    if font in v:
+        used.append(k)
+        
+print(used)",Ваше предсказание,,,,
+253,643,41,"font = input()
+used = []
+
+for key,value in design.items():
+    if font in v:
+        used.append(k)
+        
+print(used)",Ваше предсказание,,,,
+254,644,41,"font = input()
+used = []
+
+for k,v in design.items():
+    if font in k:
+        used.append(v)
+        
+print(used)",Ваше предсказание,,,,
+255,645,41,"font = input()
+used = []
+
+for k,v in design.items():
+    if font not in v:
+        used.append(k)
+        
+print(used)",Ваше предсказание,,,,
+256,646,41,"font = input()
+used = []
+
+for k,v in design.items():
+    if font in v:
+        used.add(k)
+        
+print(used)",Ваше предсказание,,,,
+257,647,41,"font = input()
+used = []
+
+for k,v in design.items():
+    if font in v
+        used.append(k)
+        
+print(used)",Ваше предсказание,,SyntaxError: expected ':',5.0,"    if font in v
+"
+258,648,41,"font = input()
+used = []
+
+for k,v in design.items():
+    if font in v:
+        used.append(k)
+        
+print(sorted(used))",Ваше предсказание,,,,
+259,649,41,"font = input()
+used = []
+
+for k,v in design.items():
+    if font in v:
+        used.append(k)
+        
+print(*used)",Ваше предсказание,,,,
+260,650,41,"font = input()
+used = []
+
+for k,v in design.items():
+    if font in v:
+        used.append(k)
+        
+    print(used)",Ваше предсказание,,,,
+261,651,42,"def best_agencies(names, count)
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    return sorted(agency)",Ваше предсказание,,SyntaxError: expected ':',1.0,"def best_agencies(names, count)
+"
+262,652,42,"def best_agencies():
+    names = input().split(', ')
+    count = list(map(int, input().split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    return sorted(agency)",Ваше предсказание,,,,
+263,653,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(name)):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    return sorted(agency)",Ваше предсказание,,,,
+264,654,42,"def best_agencies(names, count):
+    names = names.split(',')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    return sorted(agency)",Ваше предсказание,,,,
+265,655,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    return sorted(agency)",Ваше предсказание,,,,
+266,656,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    return sorted(agency)",Ваше предсказание,,,,
+267,657,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    print(sorted(agency))",Ваше предсказание,,,,
+268,658,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+        
+    for idx in range(len(names)):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    return sorted(agency)",Ваше предсказание,,,,
+269,659,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(names):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    return sorted(agency)",Ваше предсказание,,,,
+270,660,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in len(names):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    return sorted(agency)",Ваше предсказание,,,,
+271,661,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] > 500:
+            agency.append(names[idx])
+    
+    return sorted(agency)",Ваше предсказание,,,,
+272,662,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] >= 500:
+            agency.add(names[idx])
+    
+    return sorted(agency)",Ваше предсказание,,,,
+273,663,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    return agency",Ваше предсказание,,,,
+274,664,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    return sorted(agency, reverse = True)",Ваше предсказание,,,,
+275,665,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] >= 500:    
+            return sorted(names[idx])",Ваше предсказание,,,,
+276,666,42,"def best_agencies(names, count):
+    names = names.split(', ')
+    count = list(map(int, count.split(', ')))
+    
+    agency = []
+    
+    for idx in range(len(names)):
+        if count[idx] >= 500:
+            agency.append(names[idx])
+    
+    print(sorted(agency))",Ваше предсказание,,,,
+277,682,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = '{e1}, {e2}, {e3}'.split(', ')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,,,
+278,683,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}.split(', ')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,SyntaxError: unterminated string literal (detected at line 5),5.0,
+279,684,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'e1, e2, e3'.split(', ')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,,,
+280,685,44,"e = input()
+e1 = input()
+e2 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(', ')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,,,
+281,686,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(',')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,,,
+282,687,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,,,
+283,688,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(', ')
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,,,
+284,689,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(', ')
+cnt = []
+
+for i in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,,,
+285,690,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(', ')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(':')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,,,
+286,691,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(', ')
+cnt = []
+
+for exh in res:
+    review = exh.split(': ')[1]
+    cnt.append(review)
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,,,
+287,692,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(', ')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.add(int(review))
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,,,
+288,693,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(', ')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[0])
+    cnt.append(int(review))
+    
+print(sorted(cnt, reverse=True)[:2])",Ваше предсказание,,,,
+289,694,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(', ')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(cnt)",Ваше предсказание,,,,
+290,695,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(', ')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt))",Ваше предсказание,,,,
+291,696,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(', ')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt)[:2])",Ваше предсказание,,,,
+292,697,44,"e1 = input()
+e2 = input()
+e3 = input()
+
+res = f'{e1}, {e2}, {e3}'.split(', ')
+cnt = []
+
+for exh in res:
+    review = int(exh.split(': ')[1])
+    cnt.append(int(review))
+    
+print(sorted(cnt, reverse=True))",Ваше предсказание,,,,
+293,698,45,"data = input()
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info.split(': ')
+    
+    if month in avail:
+        result.append(museum)
+
+print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+294,699,45,"data = input().split('; ')
+month = input()
+
+for info in data:
+    museum, avail = info.split(': ')
+    
+    if month in avail:
+        result.append(museum)
+
+print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+295,700,45,"data = input().split(';')
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info.split(': ')
+    
+    if month in avail:
+        result.append(museum)
+
+print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+296,701,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for i in data:
+    museum, avail = info.split(': ')
+    
+    if month in avail:
+        result.append(museum)
+
+print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+297,702,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info
+    
+    if month in avail:
+        result.append(museum)
+
+print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+298,703,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info.split(':')
+    
+    if month in avail:
+        result.append(museum)
+
+print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+299,704,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    info = info.split(': ')
+    
+    if month in info:
+        result.append(info)
+
+print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+300,705,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    info.split(': ')
+    
+    if month in avail:
+        result.append(museum)
+
+print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+301,706,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info.split(': ')
+    
+    if month in avail:
+        result.append(avail)
+
+print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+302,707,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info.split(': ')
+    
+    if month in avail:
+        result.add(museum)
+
+print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+303,708,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info.split(': ')
+    
+    if month not in avail:
+        result.append(museum)
+
+print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+304,709,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info.split(': ')
+    
+    if month in avail:
+        result.append(museum)
+
+print(result)",Ваше предсказание,,,,
+305,710,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info.split(': ')
+    
+    if month in avail:
+        result.append(museum)
+
+print(*sorted(result))",Ваше предсказание,,,,
+306,711,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info.split(': ')
+    
+    if month in avail:
+        result.append(museum)
+
+print(*sorted(result, reverse = True), sep = ', ')",Ваше предсказание,,,,
+307,712,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info.split(': ')
+    
+    if month in avail:
+        result.append(museum)
+
+    print(*sorted(result), sep = ', ')",Ваше предсказание,,,,
+308,713,45,"data = input().split('; ')
+month = input()
+
+result = []
+
+for info in data:
+    museum, avail = info.split(': ')
+    
+    if month in avail:
+        result.append(museum)
+
+print(*sorted(result), sep = ',')",Ваше предсказание,,,,
+309,714,46,"def success(data)
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return True
+        
+    return money",Ваше предсказание,,SyntaxError: expected ':',1.0,"def success(data)
+"
+310,715,46,"def success():
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return True
+        
+    return money",Ваше предсказание,,,,
+311,716,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in info.items():
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return True
+        
+    return money",Ваше предсказание,,,,
+312,717,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data:
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return True
+        
+    return money",Ваше предсказание,,,,
+313,718,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for key, value in data.items():
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return True
+        
+    return money",Ваше предсказание,,,,
+314,719,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[1] = 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return True
+        
+    return money",Ваше предсказание,,SyntaxError: cannot assign to subscript here. Maybe you meant '==' instead of '='?,7.0,"        if v[1] = 'победа':
+"
+315,720,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if k[1] == 'победа':
+            wins += 1
+        money += k[0]
+            
+    if len(data) == wins:
+        return True
+        
+    return money",Ваше предсказание,,,,
+316,721,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[2] == 'победа':
+            wins += 1
+        money += v[1]
+            
+    if len(data) == wins:
+        return True
+        
+    return money",Ваше предсказание,,,,
+317,722,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[1] == 'победа':
+            wins =+ 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return True
+        
+    return money",Ваше предсказание,,,,
+318,723,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return True
+        
+return money",Ваше предсказание,,,,
+319,724,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) != wins:
+        return True
+        
+    return money",Ваше предсказание,,,,
+320,725,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return money
+        
+    return True",Ваше предсказание,,,,
+321,726,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return [True, money]
+        
+    return False",Ваше предсказание,,,,
+322,727,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return True
+        
+    return [False, money]",Ваше предсказание,,,,
+323,728,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        return True
+        
+    return wins",Ваше предсказание,,,,
+324,729,46,"def success(data):
+    
+    wins = 0
+    money = 0
+    
+    for k, v in data.items():
+        if v[1] == 'победа':
+            wins += 1
+        money += v[0]
+            
+    if len(data) == wins:
+        print(True)
+        
+    print(money)",Ваше предсказание,,,,

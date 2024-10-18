@@ -17,10 +17,21 @@ openpyxl = "^3.1.5"
 accelerate = "^1.0.1"
 pandarallel = "^1.6.5"
 basedpyright = "^1.19.0"
-nltk = "^3.9.1"
-flake8 = "^7.1.1"
-pylint = "^3.3.1"
-flake8-json = "^24.4.0"
+flash_attn 
+vllm
+profanity_filter
+cleantext
+better_profanity
+spacy
+spacy
+download
+ru_core_news_sm
+poetry-version
+cached_property
+ordered_set
+redis
+ruamel.yaml
+
 
 [tool.poetry.group.dev.dependencies]
 black = { extras = ["jupyter"], version = "^24.10.0" }
