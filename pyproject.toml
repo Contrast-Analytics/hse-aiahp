@@ -6,7 +6,7 @@ authors = ["Maxim Kirilyuk <werserk@inbox.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 requests = "^2.32.3"
 python-dotenv = "^1.0.1"
 pandas = "^2.2.3"
@@ -17,20 +17,15 @@ openpyxl = "^3.1.5"
 accelerate = "^1.0.1"
 pandarallel = "^1.6.5"
 basedpyright = "^1.19.0"
-flash_attn 
-vllm
-profanity_filter
-cleantext
-better_profanity
-spacy
-spacy
-download
-ru_core_news_sm
-poetry-version
-cached_property
-ordered_set
-redis
-ruamel.yaml
+vllm = "^0.1.0"  
+cleantext = "^1.1.4" 
+better_profanity = "^0.7.0" 
+download = "^0.3.4" 
+cached_property = "^1.5.2"
+numpy = "^1.25.2"
+matplotlib = "^3.7.3"
+nltk = "^3.8.1"
+
 
 
 [tool.poetry.group.dev.dependencies]
