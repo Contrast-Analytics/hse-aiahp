@@ -8,7 +8,7 @@ sys.path.append('/home/choosen-one/choosen-one/EDU/hackathons/cont/hse-aiahp/app
 
 from app.models.yandexgptPRO import YandexGPTPRO
 from app.models.deepseek import DeepSeek
-from app.models.jailbreak import Jailbreak
+
 from app.utils.submit import generate_submit
 
 if __name__ == "__main__":
@@ -32,11 +32,9 @@ if __name__ == "__main__":
 
     deep_gpt = DeepSeek(DeepSeek("deepseek-ai/DeepSeek-Coder-V2-Lite-Base", 8192, 1, system_prompt))
 
-    jailbreak = Jailbreak()
-
-
+    
     def predict(row: pd.Series):
-        return yandex_gpt.ask(deep_gpt.ask(jailbreak.clean_answer(row["student_solution"])))
+        return yandex_gpt.ask(deep_gpt.ask(row["student_solution"]))
 
 
     generate_submit(

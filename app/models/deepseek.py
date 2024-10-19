@@ -6,6 +6,8 @@ from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams
 from typing import Optional
 from app.models.base import BaseModel
+from app.models.jailbreak import Jailbreak
+
 
 class DeepSeek(BaseModel):
     def __init__(self, model_name: str, max_model_len: int, tp_size: int, system_prompt: Optional[str] = None) -> None:
@@ -52,6 +54,8 @@ class DeepSeek(BaseModel):
             '''
 
             author_comment = self.ask(user_message, clear_history=True)
+            jailbreak = Jailbreak()
+            author_comment = jailbreak.clean_answer(author_comment)
             author_comments.append({"id": row['id'], "author_comment": author_comment})
 
         submit_df = pd.DataFrame(author_comments)

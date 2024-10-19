@@ -4,14 +4,13 @@
 2 есть предобученный Yandex GPT PRO.
 
 ### Запуск:
-> либо notebooks либо main
-- Deepseek - "notebooks/deepseek.ipynb"
-- YandexGPT - "notebooks/pipeline_yaGPT.ipynb" // самый актуальный код по датасету для дообучения модели и отправки 
-
+> notebooks
+- Deepseek - "notebooks/deepseek.ipynb" ->
+- YandexGPT - "notebooks/2. deepseek_yandex.ipynb"
 
 ### Фишки
 > можно посмотреть "notebooks/pipeline_yaGPT.ipynb" там лонгрид по промтам, обучению, добавлению синтетики в трейн. 
-> вся очиска происходит на входе, see 'jailbreak/clean_model_answer.ipynb' for additional information
+> чистим выход из модели, see 'jailbreak/clean_model_answer.ipynb' for additional information
 
 
 ### Верхеуровневно все выглядит так
@@ -25,7 +24,7 @@
 - III. Компилируем решение студента, на вход подаем данные из тестов и смотрим какой именно из тестов не прошел(не совпадает с output тестов).
 
 У нас получается строка(Ошибка в открытых и скрытых тестах. )
-Далее используя эту информацию составляем промт для GPT.
+Далее используя эту информацию, составляем промт для GPT.
 + из решение автора составляем промт для gpt.
 
 

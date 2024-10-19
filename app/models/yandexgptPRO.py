@@ -5,6 +5,7 @@ import requests
 import sys
 sys.path.append('/home/choosen-one/choosen-one/EDU/hackathons/cont/hse-aiahp')
 from app.models.base import BaseModel
+from app.models.jailbreak import Jailbreak
 
 
 class YandexGPTPRO(BaseModel):
@@ -45,9 +46,9 @@ class YandexGPTPRO(BaseModel):
                 self.messages.append({"role": "system", "text": self.system_prompt})
 
         self.messages.append({"role": "user", "text": user_message})
-
+        
         json_request = {
-            "modelUri": self.model_url,  # Исправляем на self.model_url
+            "modelUri": self.model_url,
             "completionOptions": self.completion_options,
             "messages": self.messages,
         }
@@ -58,7 +59,8 @@ class YandexGPTPRO(BaseModel):
             return None
 
         response_data = response.json()
-        assistant_message = response_data["result"]["alternatives"][0]["message"]["text"]
+        jailbreak = Jailbreak()
+        assistant_message = jailbreak.clean_answer(response_data["result"]["alternatives"][0]["message"]["text"])
         self.messages.append({"role": "assistant", "text": assistant_message})
         return assistant_message
 
